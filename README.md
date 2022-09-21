@@ -1,2 +1,2 @@
-# DSA-C-
+# DSA C++
 All DSA Question in C++
