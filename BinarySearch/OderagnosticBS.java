@@ -15,23 +15,17 @@ public class OderagnosticBS {
             return -1;
         }
         boolean isASC=arr[start]<arr[end];
-
-
         while (start<=end){
 //            int mid= (start+end)/2; Here issue is when the limit of integer value exceed for large no while addition in jave
             int mid= start+(end-start)/2;
-
-
             if(arr[mid]==target){
                 return  mid;
             }
-
             if(isASC){
                 if(target<arr[mid]){
                     end=mid-1;
                 } else {
                     start = mid + 1;
-
                 }
             }else {
                 if(target>arr[mid]){
@@ -41,11 +35,6 @@ public class OderagnosticBS {
 
                 }
             }
-
-
-
-
-
         }
         return -1;
     }
