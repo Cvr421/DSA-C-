@@ -3,7 +3,7 @@ package BinarySearch;
 public class SmallestLetterGreaterThenTarget {
     public static void main(String[] args) {
         char[] letters = {'c', 'f', 'j' };
-        char ans = nextGreatestLetter(letters, 'z');
+        char ans = nextGreatestLetter(letters, 'c');
         System.out.println(ans);
     }
     // Step 1: Implement the binary search algorithm to find the next greatest letter.

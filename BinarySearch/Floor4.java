@@ -1,18 +1,16 @@
 package BinarySearch;
 
-public class Ceiling {
+public class Floor4 {
     public static void main(String[] args) {
         int [] arrays={2,3,5,9,14,16,18};
-        int ans=ceiling(arrays,19);
+        int ans=floor(arrays,15);
         System.out.println(ans);
     }
-    //Ceiling no = Smallest element in the array which is greater or = target element
-    static int ceiling(int[] arr, int target){
+    //floor no = largest element in the array which is smaller or = target element
+    static int floor(int[] arr, int target){
         int start=0;
         int end=arr.length-1;
-        if(target > arr.length-1){
-            return -1;
-        }
+
         while (start<=end){
 //            int mid= (start+end)/2; Here issue is when the limit of integer value exceed for large no while addition in jave
             int mid= start+(end-start)/2;
@@ -25,8 +23,8 @@ public class Ceiling {
                 return mid;
             }
         }
-        //Ceiling no = Smallest element in the array which is greater or = target element
-        return start; // here for normal Binary search problem return -1 OR when the finding Ceiling no return start
+
+        return end; // here for normal Binary search problem return -1 OR when the finding floor no return end
     }
 
 }

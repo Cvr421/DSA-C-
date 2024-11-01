@@ -2,7 +2,7 @@ package BinarySearch;
 
 import java.util.Arrays;
 //https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/== facebook
-public class FirstAndLastPositionofElement {
+public class FirstAndLastPositionofElement5 {
     public static void main(String[] args) {
       int[]  nums = {5,7,7,7,8,8,10};
       int[] ans= searchRange(nums, 7);

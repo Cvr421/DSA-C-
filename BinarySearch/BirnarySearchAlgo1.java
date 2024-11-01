@@ -1,6 +1,6 @@
 package BinarySearch;
 //https://leetcode.com/problems/binary-search/submissions/1429141066/
-public class BirnarySearchAlgo {
+public class BirnarySearchAlgo1 {
     public static void main(String[] args) {
 //     int [] arrays={1,2,3,4,5,6,7,8,9,11,12,33,44,55};
         int [] arrays={2,3,5,9,15,15,16,18};

@@ -3,7 +3,7 @@ package Linear_Search;
 public class FindMin {
     public static void main(String[] args) {
         int[] arrays={12,-2,55,6,-1,88,8,-1};
-        int ans=minimum(arrays);
+        int ans=minimum2(arrays,0,5);
         System.out.println("Minimum from the array"+ " " +ans);
     }
     // find min item in range
