@@ -1,5 +1,6 @@
 package BinarySearch;
 //https://leetcode.com/problems/binary-search/submissions/1429141066/
+//when ever in the question... if array is shorted then use binary search
 public class BirnarySearchAlgo1 {
     public static void main(String[] args) {
 //     int [] arrays={1,2,3,4,5,6,7,8,9,11,12,33,44,55};
